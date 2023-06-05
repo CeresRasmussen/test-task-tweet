@@ -1,6 +1,6 @@
 import Card from "../../components/Card/Card";
 import LoadMoreBtn from "../../components/LoadMoreBtn/LoadNoreBtn";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { fetchTweets } from "../../api/api";
 import { useEffect, useState } from "react";
 import css from "./Cards.module.css";
