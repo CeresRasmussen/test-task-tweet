@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/test-task-tweet/static/css/main.2ee7d6c9.css",
-    "main.js": "/test-task-tweet/static/js/main.9e93f4ab.js",
+    "main.css": "/test-task-tweet/static/css/main.8164304d.css",
+    "main.js": "/test-task-tweet/static/js/main.12bc1525.js",
     "static/css/971.e1e82f55.chunk.css": "/test-task-tweet/static/css/971.e1e82f55.chunk.css",
-    "static/js/971.62f1ae81.chunk.js": "/test-task-tweet/static/js/971.62f1ae81.chunk.js",
+    "static/js/971.73b39e81.chunk.js": "/test-task-tweet/static/js/971.73b39e81.chunk.js",
     "static/css/936.c51a5f61.chunk.css": "/test-task-tweet/static/css/936.c51a5f61.chunk.css",
     "static/js/936.34239169.chunk.js": "/test-task-tweet/static/js/936.34239169.chunk.js",
     "static/js/787.1623fabc.chunk.js": "/test-task-tweet/static/js/787.1623fabc.chunk.js",
@@ -14,10 +14,10 @@
     "static/media/pictureQA.svg": "/test-task-tweet/static/media/pictureQA.404ae19cf117aadfeaf89f819fe0b49b.svg",
     "static/media/Vector.svg": "/test-task-tweet/static/media/Vector.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/test-task-tweet/index.html",
-    "main.2ee7d6c9.css.map": "/test-task-tweet/static/css/main.2ee7d6c9.css.map",
-    "main.9e93f4ab.js.map": "/test-task-tweet/static/js/main.9e93f4ab.js.map",
+    "main.8164304d.css.map": "/test-task-tweet/static/css/main.8164304d.css.map",
+    "main.12bc1525.js.map": "/test-task-tweet/static/js/main.12bc1525.js.map",
     "971.e1e82f55.chunk.css.map": "/test-task-tweet/static/css/971.e1e82f55.chunk.css.map",
-    "971.62f1ae81.chunk.js.map": "/test-task-tweet/static/js/971.62f1ae81.chunk.js.map",
+    "971.73b39e81.chunk.js.map": "/test-task-tweet/static/js/971.73b39e81.chunk.js.map",
     "936.c51a5f61.chunk.css.map": "/test-task-tweet/static/css/936.c51a5f61.chunk.css.map",
     "936.34239169.chunk.js.map": "/test-task-tweet/static/js/936.34239169.chunk.js.map",
     "787.1623fabc.chunk.js.map": "/test-task-tweet/static/js/787.1623fabc.chunk.js.map",
@@ -25,7 +25,7 @@
     "547.e5dc074a.chunk.js.map": "/test-task-tweet/static/js/547.e5dc074a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ee7d6c9.css",
-    "static/js/main.9e93f4ab.js"
+    "static/css/main.8164304d.css",
+    "static/js/main.12bc1525.js"
   ]
 }
