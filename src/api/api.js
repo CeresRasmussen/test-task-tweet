@@ -5,7 +5,7 @@ export const fetchTweets = async (page = 1, limit = 3) => {
   const request = await axios
     .get(`/tweets?page=${page}&limit=${limit}`)
     .catch((e) => console.log(e.request.response));
-  console.log("request:", request);
+
   return request;
 };
 export const changeFollowers = async (id, followers) => {
@@ -14,7 +14,3 @@ export const changeFollowers = async (id, followers) => {
     .catch((e) => console.log(e.request.response));
   return request;
 };
-// const editContactsById = ({ id, name, number }) => {
-//   return HTTPClient.put(`/contacts/${id}`, { id, name, number }).catch(e =>
-//     console.log(e)
-//   );

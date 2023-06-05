@@ -1,6 +1,6 @@
 import Card from "../../components/Card/Card";
 import LoadMoreBtn from "../../components/LoadMoreBtn/LoadNoreBtn";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { fetchTweets } from "../../api/api";
 import { useEffect, useState } from "react";
 import css from "./Cards.module.css";
@@ -23,15 +23,12 @@ const CardsPage = () => {
     setIsloading(true);
     const fetchTweetsFunc = async () => {
       const { data } = await fetchTweets(page);
-      console.log("data:", data);
 
-      setTweets([...tweets, ...data]);
+      setTweets((prevTweets) => [...prevTweets, ...data]);
       setIsloading(false);
     };
     fetchTweetsFunc();
-
-    // eslint-disable-next-line
-  }, [page]);
+  }, [page, setTweets]);
 
   useEffect(() => {
     localStorage.setItem("followingStatus", JSON.stringify(followingStatus));
