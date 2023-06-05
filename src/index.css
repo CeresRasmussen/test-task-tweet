@@ -1,15 +1,13 @@
 @import-normalize;
 @font-face {
-  font-family: 'MontserratMedium';
-  src: local('MontserratMedium'),
-    url('./fonts/Montserrat-Medium.ttf') format('truetype');
+  font-family: "MontserratMedium";
+  src: local("MontserratMedium"), url("./fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: medium;
 }
 
 @font-face {
-  font-family: 'MontserratBold';
-  src: local('MontserratBold'),
-    url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-family: "MontserratBold";
+  src: local("MontserratBold"), url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: bold;
 }
 
@@ -19,16 +17,18 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "MontserratMedium", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebd8ff;
+}
+main {
+  height: 100dvh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 ul {
   list-style: none;
