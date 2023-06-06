@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 .title {
@@ -10,8 +9,6 @@
   font-size: 36px;
   line-height: 24px;
   text-transform: uppercase;
-
-  /* color: #471ca9; */
 }
 .accent {
   color: #471ca9;

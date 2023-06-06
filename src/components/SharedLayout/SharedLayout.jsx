@@ -35,4 +35,3 @@ export const SharedLayout = () => {
     </>
   );
 };
-// className={`${css.button} ${isFollowing ? css.active : ''} `}

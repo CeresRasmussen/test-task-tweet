@@ -24,7 +24,7 @@ body {
   background-color: #ebd8ff;
 }
 main {
-  height: 100dvh;
+  padding-top: 83px;
 }
 
 code {
